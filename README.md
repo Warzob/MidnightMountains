@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/6c9c214a-46a0-42de-83bc-ed84d55031a4)![image](https://github.com/user-attachments/assets/7943e24b-06a5-41ff-8dc0-3bb53e425ac5)
 # Midnight Mountains V2
 
 a midnight Mountains customizable discord theme, reworked by Warzob
@@ -8,7 +8,7 @@ a midnight Mountains customizable discord theme, reworked by Warzob
 
 <img width=800 src="https://github.com/Warzob/MidnightMountains/blob/main/mountains.png">
 
-<img width=800 src="https://github.com/Warzob/Images-/blob/main/Capture%20d’écran%202025-03-28%20à%2019.25.03%20(2).png">
+<img width=800 src="https://github.com/Warzob/Images-/blob/main/mountainspink.png?raw=true">
 
 ## install
 
