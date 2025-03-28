@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6c9c214a-46a0-42de-83bc-ed84d55031a4)![image](https://github.com/user-attachments/assets/7943e24b-06a5-41ff-8dc0-3bb53e425ac5)
+
 # Midnight Mountains V2
 
 a midnight Mountains customizable discord theme, reworked by Warzob
