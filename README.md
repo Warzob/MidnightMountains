@@ -4,8 +4,6 @@
 
 a midnight Mountains customizable discord theme, By Warzob
 
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot1.png">
-
 <img width=800 src="https://github.com/Warzob/MidnightMountains/blob/main/mountains.png?raw=true">
 
 <img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot3.png">
@@ -35,5 +33,5 @@ this theme uses a dev script to check for changes in the source css files and co
 
 
 ## credits
-
+<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot1.png">
 original design inspired by  Refact0r <https://github.com/refact0r/midnight-discord/>
