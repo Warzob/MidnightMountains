@@ -17,9 +17,6 @@ a midnight Mountains customizable discord theme, By Warzob
 2. drag the file into your theme folder. (there should be a button to open the theme folder in theme settings)
 3. (optional) customize the theme by editing the options in `midnight.theme.css`.
 
-### install through link
-
-add `https://refact0r.github.io/midnight-discord/build/midnight.css` to your theme import links. you will need to copy the theme variables to your quickcss in order to customize the theme.
 
 ## discord server
 
