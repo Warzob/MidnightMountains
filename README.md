@@ -2,7 +2,10 @@
 
 # Midnight Mountains V2
 
-a midnight Mountains customizable discord theme, By Warzob
+a midnight Mountains customizable discord theme, reworked by Warzob
+
+
+<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
 
 <img width=800 src="https://github.com/Warzob/MidnightMountains/blob/main/mountains.png?raw=true">
 
