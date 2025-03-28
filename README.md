@@ -1,8 +1,8 @@
 <img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
 
-# midnight mountains
+# Midnight Mountains V2
 
-a dark, customizable discord theme.
+a midnight Mountains customizable discord theme, By Warzob
 
 <img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/screenshot1.png">
 
@@ -33,20 +33,7 @@ need help? want to give feedback? want to be notified about upcoming changes? jo
 
 this theme uses a dev script to check for changes in the source css files and combine them into a build file. to run locally:
 
-1. clone the repository.
-2. run `npm i`.
-3. create a `.env` file in the project root with the paths of any local theme files you want to update (comma separated)
-```
-DEV_OUTPUT_PATH=C:\Users\USERNAME\AppData\Roaming\Vencord\themes\midnight-dev.theme.css
-```
-4. run `npm run dev`.
-5. make changes to any file in `/src` or the main theme file. the local theme files you listed will automatically be updated, along with the build file in `/build`.
-6. make a pull request with your changes!
 
 ## credits
 
-original design inspired by <https://github.com/schnensch0/zelk>
-
-window controls inspired by <https://github.com/Dyzean/Tokyo-Night>
-
-thanks to all the [contributors](https://github.com/refact0r/midnight-discord/graphs/contribu
+original design inspired by  Refact0r <https://github.com/refact0r/midnight-discord/>
