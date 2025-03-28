@@ -8,6 +8,8 @@ a midnight Mountains customizable discord theme, reworked by Warzob
 
 <img width=800 src="https://github.com/Warzob/MidnightMountains/blob/main/mountains.png?raw=true">
 
+<img width=800 src="https://github.com/Warzob/Images-/blob/main/Capture%20d’écran%202025-03-28%20à%2019.25.03%20(2).png?raw=true">
+
 ## install
 
 > [!NOTE]  
