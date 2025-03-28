@@ -1,4 +1,3 @@
-<img width=800 src="https://github.com/refact0r/midnight-discord/raw/master/assets/preview.png">
 
 # Midnight Mountains V2
 
