@@ -1,5 +1,5 @@
 
-# Midnight Flavor V2,1 
+# Midnight Flavor V 2.1 
 
 a midnight Flavors customizable discord theme, reworked by Warzob
 
