@@ -1,5 +1,5 @@
 
-# Midnight Mountains V2
+# Midnight Flavor V2,1 
 
 a midnight Mountains customizable discord theme, reworked by Warzob
 
