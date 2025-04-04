@@ -8,13 +8,13 @@ a midnight Flavors customizable discord theme, reworked by Warzob
 
 
 Blue Version : 
-<img width=800 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/blue.png?raw=true">
+<img width=600 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/blue.png?raw=true">
 
 Pink Version:
-<img width=800 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/pink.png?raw=true">
+<img width=600 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/pink.png?raw=true">
 
 Cyberpunk:
-<img width=800 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/Cyberpunk.png?raw=true">
+<img width=600 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/Cyberpunk.png?raw=true">
 
 
 
