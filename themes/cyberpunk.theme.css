@@ -484,3 +484,16 @@ div[class*="chatInput-"]::before {
     background-size: 12px;
     background-position: center;
 }
+
+
+/* hide nameplates */
+
+/* a few side-effects, includes but not limited to:
+ * removing the highlight on selected member
+ * the x in dms is darker
+ * prob some other stuff that i havent realized
+ */
+.container__4bbc6 {
+    display: none;
+}
+
