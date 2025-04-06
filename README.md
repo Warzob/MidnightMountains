@@ -13,10 +13,6 @@ Blue Version :
 Pink Version:
 <img width=600 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/pink.png?raw=true">
 
-Cyberpunk:
-<img width=600 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/Cyberpunk.png?raw=true">
-
-
 
 
 ## install
