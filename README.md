@@ -2,7 +2,7 @@
 
 ## [**🇫🇷 Version française / French Version (Cliquer pour voir)**](/README_FR.md)
 
-# Midnight Flavor V 3.0
+# Midnight Mountains V 3.0
 
 a midnight Flavors customizable discord theme, reworked by Warzob
 
