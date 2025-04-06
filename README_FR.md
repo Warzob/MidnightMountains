@@ -1,5 +1,5 @@
 
-# Midnight Flavor V2.1
+# Midnight Mountains V3.0
 
 Un thème Discord personnalisable Midnight Mountains, retravaillé par Warzob.
 
@@ -10,9 +10,6 @@ Blue Version :
 
 Pink Version:
 <img width=800 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/pink.png?raw=true">
-
-Cyberpunk:
-<img width=800 src="https://github.com/Warzob/MidnightFlavor/blob/main/SRC/Cyberpunk.png?raw=true">
 
 ## install
 
