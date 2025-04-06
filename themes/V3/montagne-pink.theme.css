@@ -1,0 +1,339 @@
+/**
+ * @name Mountains Pink // Midnight
+ * @description Warzob Rework Midnight V2
+ * @author Warzob
+ * @version 2.0.2
+ * @invite tVFHNrWJkY
+ */
+
+/*Dependence*/
+  /* Theme  */
+  @import url('https://raw.githubusercontent.com/Warzob/ThemedependanceWZ/refs/heads/main/build/V3.css'); 
+
+  /* Spotify  */
+    @import url("https://raw.githubusercontent.com/LuSaffi/VenCordstuff/refs/heads/main/CSS/BetterSpotifyPlayer.css");
+
+  /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100..900&family=Pixelify+Sans:wght@400..700&display=swap');
+
+body {
+    /* font, change to '' for default discord font */
+    --font: 'Lexend';
+
+    /* sizes */
+    --gap: 12px; /* spacing between panels */
+    --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
+
+    --animations: on; /* turn off to disable all midnight animations/transitions */
+    -custom-window-controls: on; /* turn off to use discord default window controls */
+    --dms-icon: on; /* set to default to use discord icon, on to use custom icon, off to disable completely */
+    --dms-background: on; /* off to disable, image to use a background image, color to use a custom color/gradient */
+    --background-image: on; /* turn on to use a background image */
+    --transparency-tweaks: on; /* turn on to remove some elements for better transparency */
+    --remove-bg-layer: off; /* turn on to remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
+    --panel-blur: off; /* turn on to blur the background of panels */
+    --flipped-chatbar: on; /* turn on to move the typing indicator above the chatbar */
+    --small-user-panel: off; /* turn on to make the user panel smaller like in old discord */
+    --move-top-bar-buttons: on;
+
+
+    /* animation/transition options */
+    --list-item-transition: 0.2s ease; /* transition for list items */
+    --dms-icon-svg-transition: 0.4s ease; /* transition for the dms icon */
+
+    /* window controls */
+    --window-control-size: 14px; /* size of custom window controls */
+
+    /* dms button icon options */
+    --dms-icon-svg-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* icon svg url. MUST BE A SVG. */
+    --dms-icon-svg-size: 100%; /* size of the svg (css mask-size) */
+    --dms-icon-color-before: var(--white-1); /* normal icon color */
+    --dms-icon-color-after: oklch(0.73 0.1238 328.22); /* icon color when button is hovered/selected */
+    --dms-background: color;
+    --dms-background-color: transparent;
+
+    /* background image options */
+    --background-image-url: url('https://github.com/dharmx/walls/blob/main/nord/a_snowy_mountain_tops.jpg?raw=true');
+
+    /* Nitro */
+    --showNitroButton: none; /* inherit = on || none = off */
+
+    /* Image emote discord */
+    --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+    --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+
+    /* transparency/blur options */
+    /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
+    --blur-amount: 12px; /* amount of blur */
+    --bg-floating: var(--bg-3); /* you can set this to a more opaque color if floating panels look too transparent */
+
+    /* chatbar options */
+    --chatbar-height: 47px; /* height of the chatbar (52px by default, 47px to align it with the user panel) */
+    --chatbar-padding: 8px; /* padding of the chatbar */
+}
+
+/* color options */
+:root {
+
+
+ /* emote */
+  --onekomessagebar-skin: url(https://github.com/LuSaffi/VenCordstuff/blob/main/Images/eevee.png?raw=true);
+  --onekomessagebar-selected-animation: sleep;
+  --onekomessagebar-selected-duration: 2s;
+  --onekomessagebar-wakeup-animation: sleep;
+    --colors: on; /* turn off to use discord default colors */
+
+    /* Couleurs de texte */
+    --text-0: hsl(220, 45%, 95%); /* Texte sur les éléments colorés */
+    --text-1: hsl(220, 45%, 95%); /* Autre texte normalement blanc */
+    --text-2: hsl(220, 25%, 70%); /* Titres et texte important */
+    --text-3: hsl(220, 20%, 60%); /* Texte normal */
+    --text-4: hsl(220, 6%, 42%); /* Boutons d'icônes et canaux */
+    --text-5: hsl(284, 26%, 36%); /* Canaux/chats en sourdine et horodatages */
+ 
+    /* Couleurs de fond et sombres */
+    --bg-1: hsl(220, 15%, 20%); /* Boutons sombres lorsqu'ils sont cliqués */
+    --bg-2: hsl(220, 15%, 16%); /* Boutons sombres */
+    --bg-3: hsl(220, 15%, 13%); /* Espacement, éléments secondaires */
+    --bg-4: hsla(283, 14%, 10%, 0.7); /* Couleur de fond principale */
+    --hover: hsla(279, 19%, 40%, 0.1); /* Canaux et boutons au survol */
+    --active: hsla(220, 19%, 40%, 0.2); /* Canaux et boutons lorsqu'ils sont cliqués ou sélectionnés */
+    --active-2: hsla(220, 19%, 40%, 0.3); /* État supplémentaire pour les boutons transparents */
+    --message-hover: hsla(230, 0%, 0%, 0.1); /* Messages au survol */
+ 
+    /* Couleurs d'accentuation (modifiées pour utiliser les violets) */
+    --accent-1: oklch(0.73 0.1238 328.22); /* Liens et texte d'accentuation */
+    --accent-2: oklch(0.73 0.1238 328.22); /* Petits éléments d'accentuation */
+    --accent-3: oklch(0.73 0.1238 328.22); /* Boutons d'accentuation */
+    --accent-4: oklch(0.73 0.1238 328.22); /* Boutons d'accentuation au survol */
+    --accent-5: oklch(0.73 0.1238 328.22); /* Boutons d'accentuation lorsqu'ils sont cliqués */
+    --accent-new: oklch(0.73 0.1238 328.22); /* Éléments comme les boutons de sourdine/désactivation */
+    --mention: linear-gradient(to right, color-mix(in hsl, oklch(70% 0.11 310), transparent 90%) 40%, transparent); /* Fond des messages qui vous mentionnent */
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, oklch(70% 0.11 310), transparent 95%) 40%, transparent); /* Fond des messages qui vous mentionnent au survol */
+    --reply: linear-gradient(to right, color-mix(in hsl,  hsl(220, 20%, 60%), transparent 90%) 40%, transparent); /* Fond des messages qui vous répondent */
+    --reply-hover: linear-gradient(to right, color-mix(in hsl,  hsl(220, 20%, 60%), transparent 95%) 40%, transparent); /* Fond des messages qui vous répondent au survol */
+ 
+    /* Couleurs des indicateurs de statut */
+    --online: var(--green-2); /* Changer en #43a25a pour la valeur par défaut */
+    --dnd: var(--red-2); /* Changer en #d83a42 pour la valeur par défaut */
+    --idle: var(--yellow-2); /* Changer en #ca9654 pour la valeur par défaut */
+    --streaming: var(--purple-2); /* Changer en #593695 pour la valeur par défaut */
+    --offline: var(--text-4); /* Changer en #83838b pour la couleur hors ligne par défaut */
+ 
+    /* Options de la barre de chat */
+    --flipped-chatbar: on; /* Activer pour rendre la barre de chat plus esthétique */
+    --chatbar-height: 47px; /* Hauteur de la barre de chat (52px par défaut, 47px pour l'aligner avec le panneau utilisateur) */
+    --chatbar-padding: 8px; /* Remplissage de la barre de chat */
+ 
+    /* Couleurs des bordures */
+    --border-light: hsla(317, 21%, 45%, 0.9); /* Couleur de bordure claire */
+    --border: hsl(230, 20%, 40%, 0.2); /* Couleur de bordure normale */
+    --button-border: hsl(0, 0%, 100%, 0.1); /* Couleur de bordure neutre des boutons */
+
+    /* bouton message non lu */
+    --list-item-transition: 0.2s ease; 
+ 
+    /* Couleurs de base */
+    --white-1: oklch(0.59 0.0057 345.39);
+    --purple-1: oklch(76% 0.11 310);
+    --purple-2: oklch(70% 0.11 310);
+    --purple-3: oklch(64% 0.11 310);
+    --purple-4: oklch(58% 0.11 310);
+    --purple-5: oklch(52% 0.11 310);
+}
+
+.visual-refresh {
+  .trailing_c38106 > a[href="https://support.discord.com"] { display: none; }
+  [class*=welcomeCTA_] { display: var(--showWelcomeButtons); } /* Welcome User Button */
+  button:has([d^=' M-7,10 C-8' i]) { display: var(--showNitroButton); } /* Hide Gift Button */
+  .container__4bbc6 { display: none; }
+  .title_c38106 { display: none; }
+  .icon__2ea32 {color: oklch(0.73 0.1238 328.22) !important; /* Vert pour les écouteurs */} /* Colorer les icônes des salons vocaux (écouteurs) */  
+  
+  }
+  
+
+.wrapper__2ea32:hover .unread__2ea32 {
+    width: 12px;
+    height: 12px;
+    margin-top: -6px;
+    margin-left: 3px;
+    background-color: transparent;
+    background: url('https://cdn.discordapp.com/emojis/1219786734557204491.webp?size=48');
+    background-size: 12px;
+    background-position: center;
+}
+
+/*=====================================================*/
+/*         Folder Icon & Separator Tweaks              */
+/*=====================================================*/
+  .expandedFolderIconWrapper__48112 svg {
+      width: 24px !important;
+      height: 24px !important;
+      margin-top: 2px;
+      margin-bottom: -2px;
+      transition: transform 0.15s ease-in-out;
+      transform-origin: center;
+  }
+
+  .expandedFolderIconWrapper__48112:hover {
+      transform: scale(0.9);
+      transition: transform 0.15s ease-in-out;
+      transform-origin: center;
+  }
+
+  /* 📏 List item custom spacing */
+  .listItem__650eb::after {
+      content: none;
+      display: block;
+      height: -20px;
+  }
+
+  /* 🔘 Server separator styling */
+  .visual-refresh .guildSeparator__252b6 {
+      width: 40px !important;
+      background-color: oklch(0.73 0.1238 328.22);
+      margin: 0.38px;
+  }
+
+  .content_a2f514 {
+  display: flex;
+      flex-direction: column;
+      > .spinner_a2f514 { display: none }
+      &:before {
+          display: block;
+          height: 128px;
+          position: relative;
+          content: url(https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/static/shiggy.gif);
+          image-rendering: pixelated;
+          align-content: center;
+          scale: 3.125;
+          margin-bottom: 96px;
+      }
+  }
+
+  
+
+/*=====================================================*/
+/*               PRETTIER SEARCH BAR                   */
+/*=====================================================*/
+[class*=search]:not([class*=open]) > [class^=searchBar] {
+    width: 22px;
+    margin-top: 6px;
+    margin-right: 8px;
+    background: transparent;
+    border-width: 0px;
+}
+
+[class*=searchBarComponent]{background: transparent;}
+[class*=search]:not([class*=open]) [class^='iconLayout'] {cursor: pointer;}
+[class*=search]:not([class*=open]) [class^='iconContainer'] {transform: scale(1.4);}
+[class*=search]:not([class*=open]) [class^='icon_fea832']{color: var(--interactive-normal);}
+[class*=search]:not([class*=open]):hover [class^='icon'] {color: var(--interactive-active);} /* PRETTIER SEARCH BAR */
+
+
+/*=====================================================*/
+/*           AUTO COMPLETE EMOJI ANIMATION             */
+/*=====================================================*/
+div[class*=autocompleteInner] [class*=clickable] [class*=base]:hover{transition: all 0s;transform: scale(1.02);}
+div[class*=autocompleteInner] [class*=base]{ transition: all 0.3s;}/* animation controls*/ 
+
+
+
+/*=====================================================*/
+/*               Custom Emoji Button                   */
+/*=====================================================*/
+[class*=emojiButton] [class*=spriteColored]{background: var(--customEmojiIconURL) center/contain no-repeat;}
+
+[class*=emojiButton] [class*=spriteGreyscale]{mask: var(--customEmojiIconMask) center/contain no-repeat;}
+
+[id*=popout_ i]::after, [class*=menu i]::after {
+    display: var(--displayShiggyIcons);
+    content: none;
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: var(--shiggyPopoutIcons);
+    background-size: cover;
+}
+
+
+
+/*=====================================================*/
+/*                 TOP Bar Buttons                     */
+/*=====================================================*/
+@container body style(--move-top-bar-buttons: on) {
+  .visual-refresh {
+      /* remove help button */
+      .trailing_c38106 > a[href="https://support.discord.com"]{display: none;}
+      /* make server list inner scroll */
+      .stack_dbd263 {
+          overflow: hidden scroll;
+          scrollbar-width: none;
+      }
+      .tutorialContainer__1f388 {margin-bottom: 48px;      /* create space for inbox button */
+    }
+      /* move inbox button */
+      .recentsIcon_c99c29 {
+          position: fixed;
+          width: 40px;
+          height: 40px;
+          top: calc(var(--custom-app-top-bar-height) + 1px + var(--custom-guild-list-padding) + 48px);
+          left: calc(var(--gap) + 1px + var(--custom-guild-list-padding));
+      }
+      /* style inbox button */
+      .recentsIcon_c99c29 .button__85643 {
+          width: 100%;
+          height: 100%;
+          background-color: transparent;
+          border-radius: var(--radius-md);
+          transition: background-color 0.15s ease-out;
+
+          &:hover {
+              background-color: transparent;
+
+              .icon__9293f {color: var(--white);}
+          }
+      }
+      .recentsIcon_c99c29 .svg__2338f {
+          transition: color 0.15s ease-out;
+          width: 24px;
+          height: 24px;
+      }
+      /* shift inbox popup panel into view */
+      .recentMentionsPopout__95796 {transform: translateX(100%);}
+      
+      .title_c38106 { 
+          padding-left: var(--gap);
+          justify-content: flex-start;  /* move top bar title */
+      }
+      .title__85643 {gap: 4px;}
+      /* style top bar title */
+      .title__85643 .icon_f34534 {
+          width: 16px;
+          height: 16px;
+          display: none;
+      }
+      .title__85643 .text-sm\/medium_cf4812 {
+          line-height: 90%;
+          color: var(--text-muted);
+          font-weight: 700;
+      }
+
+      /* fix settings animation transform */
+      .layer__960e4.baseLayer__960e4 {transform: none !important;}
+      .layers__960e4 > .layer__960e4.animating__960e4 {will-change: opacity;}
+
+      /* unread icon */
+      .recentsIcon_c99c29 .iconBadge__9293f {
+          --custom-icon-offset: 8px;
+          width: 10px;
+          height: 10px;
+          transition: background 0.15s ease-out;
+      }
+
+      .recentsIcon_c99c29:hover .iconBadge__9293f {background: var(--white);}
+  }
+}
