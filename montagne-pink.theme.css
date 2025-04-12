@@ -29,6 +29,10 @@ body {
   --flipped-chatbar: on; /* turn on to move the typing indicator above the chatbar */
   --small-user-panel: off; /* turn on to make the user panel smaller like in old discord */
   --move-top-bar-buttons: on;
+/* Nitro */
+  --showNitroButton: none; /* inherit = on || none = off */
+/* Game */  
+  --showplaying: none; /* inherit = on || none = off */
 /* sizes */
   --gap: 12px; /* spacing between panels */
   --divider-thickness: 4px; /* thickness of unread messages divider and highlighted message borders */
@@ -46,8 +50,6 @@ body {
   --dms-background-color: transparent;
 /* background image options */
   --background-image-url: url('https://github.com/dharmx/walls/blob/main/nord/a_snowy_mountain_tops.jpg?raw=true');
-/* Nitro */
-  --showNitroButton: none; /* inherit = on || none = off */
 /* Image emote discord */
   --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
   --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
@@ -99,7 +101,7 @@ body {
   --chatbar-height: 47px; /* Hauteur de la barre de chat (52px par défaut, 47px pour l'aligner avec le panneau utilisateur) */
   --chatbar-padding: 8px; /* Remplissage de la barre de chat */
 /* Couleurs des bordures */
-  --border-light: oklch(0.53 0.0794 337.7 / 90%); /* Couleur de bordure claire */
+  --border-light: oklch(0.62 0.1405 339.67 / 0.9); /* Couleur de bordure claire */
   --border: oklch(0.47 0.0558 275.32 / 20%); /* Couleur de bordure normale */
   --button-border: oklch(1 0 0 / 10%); /* Couleur de bordure neutre des boutons */
 /* bouton message non lu */
@@ -115,14 +117,13 @@ body {
 
 .visual-refresh {
 .trailing_c38106 > a[href="https://support.discord.com"] { display: none; }
+div[class^=channelAppLauncher_] {display:  var(--showplaying) !important;}
 [class*=welcomeCTA_] { display: var(--showWelcomeButtons); } /* Welcome User Button */
 button:has([d^=' M-7,10 C-8' i]) { display: var(--showNitroButton); } /* Hide Gift Button */
 .container__4bbc6 { display: none; }
 .title_c38106 { display: none; }
 .icon__2ea32 {color: oklch(0.73 0.1238 328.22) !important; /* Vert pour les écouteurs */} /* Colorer les icônes des salons vocaux (écouteurs) */  
 }
-.wrapper__2ea32:hover .unread__2ea32 {width: 12px;height: 12px;margin-top: -6px;margin-left: 3px;background-color: transparent;background: url('https://cdn.discordapp.com/emojis/1219786734557204491.webp?size=48');background-size: 12px;background-position: center;}
-
 /*=====================================================*/
 /*         Folder Icon & Separator Tweaks              */
 /*=====================================================*/
