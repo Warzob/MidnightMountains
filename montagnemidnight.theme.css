@@ -191,3 +191,17 @@ body {
         .recentsIcon_c99c29 .iconBadge__9293f { --custom-icon-offset: 8px; width: 10px; height: 10px;transition: background 0.15s ease-out;}
         .recentsIcon_c99c29:hover .iconBadge__9293f {background: oklch(76% 0.1 215);}
     }}
+
+/*betterfolder */
+.visual-refresh {
+  .vc-betterFolders-sidebar-grid {grid-template-columns: [start] min-content [guildsEnd] min-content [sidebarEnd] min-content [channelsEnd] 1fr [end];.sidebarList_c48ade {width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - var(--gap));}
+  .sidebar_c48ade:not(:has(:nth-child(2) > [aria-label='Servers sidebar'])) {column-gap: 0;}
+  .panels_c48ade {max-width: calc(var(--custom-guild-sidebar-width) + 2 * var(--gap) + 4px + 66px);}}
+}
+
+@container body style(--small-user-panel: on) {.visual-refresh {.vc-betterFolders-sidebar-grid {grid-template-areas: 'titleBar titleBar titleBar titleBar' 'guildsList betterFoldersSidebar notice notice' 'guildsList betterFoldersSidebar channelsList page' 'guildsList betterFoldersSidebar userPanel page';}}}
+  @container body style(--small-user-panel: off) {.visual-refresh {.vc-betterFolders-sidebar-grid {grid-template-areas: 'titleBar titleBar titleBar titleBar' 'guildsList betterFoldersSidebar notice notice' 'guildsList betterFoldersSidebar channelsList page' 'userPanel userPanel userPanel page';}}}
+
+
+
+
