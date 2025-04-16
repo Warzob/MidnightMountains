@@ -29,7 +29,7 @@ Pink Version:
 
 ## discord server
 
-need help? want to give feedback? want to be notified about upcoming changes? join <https://discord.gg/nz87hXyvcy>
+need help? want to give feedback? want to be notified about upcoming changes? join <https://discord.gg/Xe6D5GwkwC>
 
 ## contributing
 
