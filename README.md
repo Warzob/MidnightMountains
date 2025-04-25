@@ -10,8 +10,8 @@ a midnight Flavors customizable discord theme, reworked by Warzob
 Blue Version : 
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1b.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2b.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/3b.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/4b.png?raw=true">
+<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/3B.png?raw=true">
+<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/4B.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/5b.png?raw=true">
 Pink Version:
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1p.png?raw=true">
