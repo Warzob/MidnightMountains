@@ -2,18 +2,18 @@
 
 ## [**🇫🇷 Version française / French Version (Cliquer pour voir)**](/README_FR.md)
 
-# Midnight Mountains V 3.0
+# Midnight Mountains V 3.2
 
 a midnight Flavors customizable discord theme, reworked by Warzob
 
 
-Blue Version : 
+### Blue Version : 
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1b.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2b.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/3B.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/4B.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/5b.png?raw=true">
-Pink Version:
+### Pink Version : 
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1p.png?raw=true">
 <img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2p.png?raw=true">
 
