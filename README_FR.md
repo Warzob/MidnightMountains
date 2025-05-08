@@ -7,16 +7,16 @@ Un thème Discord personnalisable Midnight Mountains, retravaillé par Warzob.
 
 
 ### Blue Version : 
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1b.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2b.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/3B.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/4B.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/5b.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1b.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2b.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/3B.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/4B.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/5b.png?raw=true">
 
 
 ### Pink Version : 
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1p.png?raw=true">
-<img width=600 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2p.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/1p.png?raw=true">
+<img width=400 src="https://github.com/Warzob/MidnightMountains/blob/main/SRC/2p.png?raw=true">
 
 ## install
 
